@@ -1,0 +1,9 @@
+requests
+streamlit
+Bs4
+json
+numpy
+tensorflow
+keras
+sklearn
+nltk
