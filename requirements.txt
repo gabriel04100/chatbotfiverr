@@ -1,6 +1,5 @@
 requests
 streamlit
-Bs4
 json
 numpy
 tensorflow
