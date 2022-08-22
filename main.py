@@ -3,7 +3,6 @@
 #
 #
 from model import Model
-from scrapper import Scrapper
 import streamlit as st
 
 import json
