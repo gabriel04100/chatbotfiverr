@@ -1,0 +1,96 @@
+{"intents":[{"context":"",
+            "patterns":["hey","Hello","Hi","Hi there","good morning"],
+            "responses":["Hey","Hello","Hi"],
+            "tag":"hello"},
+            {"context":"",
+            "patterns":["bye","goodbye","see ya","See you later","Have a good day"],
+            "responses":["goodbye","Have a good day"],
+            "tag":"bye"},
+
+            {"context":"",
+            "patterns":["How many department of Social sciences ?","number of department social sciences"],
+            "responses":["There's 6 department of Social sciences : Psychology,Management,Digital Forensics Research and Service Centre, Islamic studies, Mass communication"],
+            "tag":"social-science"},
+
+            {"context":"",
+            "patterns":["How many department of Computer Sciences ?","number of department computer sciences"],
+            "responses":["There's 3 department: computer-science, information-technology, software engineering"],
+            "tag":"computer-science"},
+
+            {"context":"",
+            "patterns":["How many department of Languages ?","number of department languages "],
+            "responses":["There's 2 department of languages : English, Urdu"],
+            "tag":"languages"},
+
+            {"context":"",
+            "patterns":["How many department basic sciences ?","How many department pure sciences ?","number of department sciences "],
+            "responses":["There's 4 department of languages : mathematics, chemistry, biology, physics"],
+            "tag":"basic-sciences"},
+
+            {"context":"",
+            "patterns":["How to contact university","what is the email","what is the phone number"],
+            "responses":["Here is the contact info phone: 042-37181821-28 mail:info@lgu.edu.pk"],
+            "tag":"contact"},
+
+            {"context":"",
+            "patterns":["where can I apply","when can I apply","How to be a student in Lahore Garisson university"],
+            "responses":["Please check the following: https://admissions.lgu.edu.pk/"],
+            "tag":"apply"},
+
+            {"context":"",
+            "patterns":["where is the campus","when is the campus located","what is the location of the campus","adress of the campus"],
+            "responses":["adress: Main Campus, Sector C DHA Phase 6, Lahore, Pakistan"],
+            "tag":"location"},
+
+            {"context":"",
+            "patterns":["where can i find international programmes","are there international programmes","international exchange"],
+            "responses":["you can find exchange international programmes on : http://international.lgu.edu.pk/programmes/"],
+            "tag":"international"},
+
+            {"context":"",
+            "patterns":["where can i find conferences","conferences schedule"],
+            "responses":["you can find conferences schedule on : https://lgu.edu.pk/conferences/"],
+            "tag":"conferences"},
+
+            {"context":"",
+            "patterns":["where can i find mathematics department","maths","information mathematics"],
+            "responses":["you can find info on mathematics department on : https://lgu.edu.pk/department-of-mathematics/"],
+            "tag":"mathematics"},
+
+            {"context":"",
+            "patterns":["where can i find chemistry department","chemistry","information chemistry"],
+            "responses":["you can find info on chemistry department on : https://lgu.edu.pk/department-of-chemistry/"],
+            "tag":"chemistry"},
+
+            {"context":"",
+            "patterns":["where can i find biology department","biology","information biology"],
+            "responses":["you can find info on biology department on : https://lgu.edu.pk/department-of-biology/"],
+            "tag":"biology"},
+
+            {"context":"",
+            "patterns":["where can i find physics department","physics","information physics"],
+            "responses":["you can find info on physics department on : https://lgu.edu.pk/department-of-physics/"],
+            "tag":"physics"},
+
+
+            {"context":"",
+            "patterns":["where can I find my results ?","check results","exam results"],
+            "responses":["You can check results on: https://lgu.edu.pk/result/"],
+            "tag":"exam"},
+
+            {"context":"",
+            "patterns":["help me","help","robot","bot","who are you ?","what do you do ?"],
+            "responses":["I'm a bot conceived to help you, please ask questions related to Lahore Garisson University"],
+            "tag":"help"},
+            
+
+            {"context":"",
+            "patterns":["You re cute","beautiful","handsome"],
+            "responses":["oh, thanks"],
+            "tag":"funny"}
+
+
+            
+
+    ]
+}
