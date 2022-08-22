@@ -18,6 +18,48 @@
             "tag":"computer-science"},
 
             {"context":"",
+            "patterns":[" information about all department"," How many department"],
+            "responses":["15 department are shared between multiple faculties :Social sciences, Computer Sciences, Languages, Basic Sciences you can check them on https://lgu.edu.pk/"],
+            "tag":"dptmnt"},
+
+            {"context":"",
+            "patterns":["give me info about sports"," How many sports are there","sports in LGU"],
+            "responses":["Lahore Garisson Univeristy have sports events,training camps : WUSHU, Judo, karate... you can check all on: https://lgu.edu.pk/sports-2/"],
+            "tag":"sports"},
+
+            {"context":"",
+            "patterns":["what is LGU","info about LGU","LGU","information Lahore Garisson Univeristy"],
+            "responses":["Lahore Garisson University is a university in Pakistan , located in Lahore capital city of Punjab, has marked a significant milestone in the history of Pakistan’s higher education. We are determined to meet global challenges by producing skilled and productive graduates in the number of prominent fields of knowledge and research. Lahore Garrison University has been established with the goal of achieving excellence in academia and offering a high-quality educational environment to its students."],
+            "tag":"LGU"},
+
+            {"context":"",
+            "patterns":["NOC link","info about NOC","NOC","information NOC"],
+            "responses":["please head to : https://lgu.edu.pk/noc/"],
+            "tag":"NOC"},
+
+            {"context":"",
+            "patterns":["tender link","info about tender","tender","information tender"],
+            "responses":["please head to : https://lgu.edu.pk/tender/"],
+            "tag":"tender"},
+            
+            {"context":"",
+            "patterns":["events link","info about events","events","latest events"],
+            "responses":["please head to : https://lgu.edu.pk/events-2/"],
+            "tag":"tender"},
+
+            {"context":"",
+            "patterns":["notifications link","info about notifications","notifications","latest notifications"],
+            "responses":["please head to : https://lgu.edu.pk/notifications/"],
+            "tag":"notifications"},
+
+            {"context":"",
+            "patterns":["timetable link","info about timetable","timetable"],
+            "responses":["please head to : timetable.lgu.edu.pk"],
+            "tag":"timetable"},
+           
+
+
+            {"context":"",
             "patterns":["How many department of Languages ?","number of department languages "],
             "responses":["There's 2 department of languages : English, Urdu"],
             "tag":"languages"},
@@ -38,7 +80,7 @@
             "tag":"apply"},
 
             {"context":"",
-            "patterns":["where is the campus","when is the campus located","what is the location of the campus","adress of the campus"],
+            "patterns":["where is LGU","where is Lahore Garisson Univeristy","where is the campus","where is the campus","when is the campus located","what is the location of the campus","adress of the campus"],
             "responses":["adress: Main Campus, Sector C DHA Phase 6, Lahore, Pakistan"],
             "tag":"location"},
 
