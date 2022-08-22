@@ -11,9 +11,6 @@ import pandas as pd
 import numpy as np
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import Dropout
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score
 from sklearn.pipeline import make_pipeline
