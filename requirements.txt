@@ -1,6 +1,5 @@
 requests
 streamlit
-json
 numpy
 tensorflow
 keras
