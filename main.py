@@ -21,7 +21,22 @@ st.write('Official website: https://lgu.edu.pk/')
 
 
 #user input
+
+
+
+
+
+
+
+model= Model('data.json','model.joblib')
+model.construct_model()
+
+
+
 querry = st.text_input('How can I help you : ', '')
+if st.button('send'):
+    if querry !="" and querry !=" " and querry !="My querry":
+        st.write(model.predict(querry))
 
 #robot image
 st.image('bot_img.png',width=100)
@@ -34,17 +49,5 @@ button[title="View fullscreen"]{
 </style>
 '''
 st.markdown(hide_img_fs, unsafe_allow_html=True)
-
-
-
-
-
-model= Model('data.json','model.joblib')
-model.construct_model()
-
-if querry !="" and querry !=" " and querry !="My querry":
-    st.write(model.predict(querry))
-
-
 
 
