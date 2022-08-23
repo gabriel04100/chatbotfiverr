@@ -23,19 +23,36 @@
             "tag":"psychology"},
 
             {"context":"",
+            "patterns":["who  is the hod department of psychology ? ","who is head of psychology department","hod psychology"],
+            "responses":["psychology head of deparment is Dr. Zarghuna Naseem find more on https://lgu.edu.pk/department-of-psychology-hods-message/"],
+            "tag":"hod-psychology"},
+
+            {"context":"",
             "patterns":["where can i find the department of management ? "],
             "responses":["The Department of Management Sciences was established in 2012, and since then, it has aimed to produce accomplished professionals who are best fit to meet the challenges of the public and corporate world. see more :https://lgu.edu.pk/department-of-management-sciences/"],
             "tag":"manag-dptmnt"},
+
+            {"context":"",
+            "patterns":["who is the head of the department  management ? ","hod management"],
+            "responses":["Dr. Leena Anum is head of management department find more on : https://lgu.edu.pk/hods-message/"],
+            "tag":"hod-manag-dptmnt"},
+
 
             {"context":"",
             "patterns":["where can i find the department of digital forensics ? "],
             "responses":["Digital Forensics Research and Service Centre (DFRSC) was established in June 2016 as Centre of studies for Digital Forensic and Cyber Crime Investigations at Lahore Garrison University. LGU has made a remarkable impact on the canvas of Digital Forensics and related technologies in last six years. https://lgu.edu.pk/dfrsc-home/"],
             "tag":"digital-forensics-dptmnt"},
 
+            
             {"context":"",
             "patterns":["where can i find the department of islamic studies ? "],
             "responses":["The Department of Islamic Studies is one of the esteemed departments of LGU. The Department aims at realizing the long-cherished dream of striking a balance between the pristine values of Islam as outlined in the Holy Qur’an and the Sunnah and the practical challenges of modern times. The highly qualified academicians have been engaged to focus on achieving excellence in education and research and contributing to the intellectual, cultural and social development of the institution. https://lgu.edu.pk/department-of-islamic-sciences/"],
             "tag":"islamic-studies-dptmnt"},
+
+            {"context":"",
+            "patterns":["who is the head of department of islamic studies "],
+            "responses":["Dr. Tahir Masood Qazi is the head of islamic studies department find more on https://lgu.edu.pk/isl-hods-message/"],
+            "tag":"hod-islamic-studies-dptmnt"},
 
             {"context":"",
             "patterns":["where can i find the department of mass communication ? "],
@@ -43,9 +60,19 @@
             "tag":"mass-communication-dptmnt"},
 
             {"context":"",
+            "patterns":["who is the head of department of mass communication "],
+            "responses":[" Dr. Amir Mehmood Bajwa is the head of mass communication studies more on : https://lgu.edu.pk/mass-communication-hods-message/"],
+            "tag":"hod-mass-communication-dptmnt"},
+
+            {"context":"",
             "patterns":["where can i find the department of INTERNATIONAL RELATIONS AND POLITICAL SCIENCE ? "],
             "responses":["Department takes pride in its prestigious M. Phil International Relations Program, which was kicked off in the Fall of the year 2016. It is assiduously pursued in two years, comprising four semesters and weighted thirty credit hours. https://lgu.edu.pk/department-of-pol-sci-ir-pak-studies/"],
             "tag":"political-dptmnt"},
+
+            {"context":"",
+            "patterns":["who is the head of department of political international relations communication "],
+            "responses":[" Dr. Tahira Parveen is the head of International Relations & Political Science studies more on :https://lgu.edu.pk/pol-hods-message/"],
+            "tag":"hod-political-dptmnt"},
 
             {"context":"",
             "patterns":["where can i find the department of computer SCIENCE ? "],
@@ -53,14 +80,37 @@
             "tag":"computer-sc-dptmnt"},
 
             {"context":"",
+            "patterns":["who is hod of computer science department","head of computer science","head of of computer science department"],
+            "responses":["Head of computer science department is Dr. Muhammad Asif find more on: https://lgu.edu.pk/cs-hods-message-2/"],
+            "tag":"hod-computer-sc-dptmnt"},
+
+
+            {"context":"",
             "patterns":["where can i find the department of information technology ? "],
             "responses":["Information technology at LGU, comprising more than one-fifth of the student population. Lahore Garrison University offers two exciting in demand degree programs BS IT (Hons) and MS IT, taught by our world-class faculty specializing in the domains of Advanced Information Technology, Databases, Software Development and Networks. The department is planning for strong growth in the coming years. The department has highly qualified faculty with academics as well as industry experience.  https://lgu.edu.pk/department-of-information-technology/"],
             "tag":"information-tech-dptmnt"},
 
             {"context":"",
+            "patterns":["who is hod of information technology department","head of information technology department","head of information technology department"],
+            "responses":["head of information technology department is : Dr. Ahmad Naeem Akhtar find more on https://lgu.edu.pk/it-hods-message/"],
+            "tag":"hod-information-tech-dptmnt"},
+
+            
+
+            {"context":"",
             "patterns":["where can i find the department of software engineering ? "],
             "responses":["Software Engineering at LGU is the second-largest department of the university. It is the discipline of creating high-quality software systems in a systematic, controlled, and efficient manner. It involves the application of engineering concepts, techniques, and methods to the design, development, deployment, and maintenance of software systems. In our software engineering program, we groom professionals who have a mastery of principles, theory, practices, and processes necessary to produce quality software systems. The department has highly qualified faculty members with solid academic backgrounds and rich industry experience who are not only best in teaching but actively promote research culture among the youth of the country.   https://lgu.edu.pk/department-of-software-engineering/"],
             "tag":"software-eng-dptmnt"},
+
+            {"context":"",
+            "patterns":["who is hod of  software engineering department","hod of software engineering department","head of software engineering"],
+            "responses":["head of information software engineering dpartment is Dr. Khalid Masood find more on https://lgu.edu.pk/se-hod-message/"],
+            "tag":"hod-software-eng-dptmnt"},
+
+            {"context":"",
+            "patterns":["who is hod of  software engineering department","hod of software engineering department","head of software engineering"],
+            "responses":["head of information software engineering department is Dr. Khalid Masood find more on https://lgu.edu.pk/se-hod-message/"],
+            "tag":"hod-software-eng-dptmnt"},
 
 
             {"context":"",
@@ -69,12 +119,21 @@
             "tag":"english-dptmnt"},
 
             {"context":"",
+            "patterns":["who is hod of  english  department","hod of english department","head of english"],
+            "responses":["head of english department is Prof. Dr. Arif Jawaid find more on https://lgu.edu.pk/english-department-hods-message/"],
+            "tag":"hod-software-eng-dptmnt"},
+
+            {"context":"",
             "patterns":["where can i find the department of urdu ?"],
             "responses":["please head to : https://lgu.edu.pk/department-of-urdu/"],
             "tag":"urdu-dptmnt"},
 
-                     
-            
+            {"context":"",
+            "patterns":["who is hod of  urdu  department","hod of urdu department","head of urdu"],
+            "responses":["please head to : https://lgu.edu.pk/department-of-urdu-hods-message/"],
+            "tag":"hod-urdu-dptmnt"},
+
+                       
 
             {"context":"",
             "patterns":["Who is the Vice-chancelor","whos is the dean ?","dean"],
@@ -124,7 +183,7 @@
 
             {"context":"",
             "patterns":["timetable link","info about timetable","timetable"],
-            "responses":["please head to : timetable.lgu.edu.pk"],
+            "responses":["please head to : https://timetable.lgu.edu.pk"],
             "tag":"timetable"},
            
 
@@ -170,9 +229,19 @@
             "tag":"mathematics"},
 
             {"context":"",
+            "patterns":["who is head of mathematics department","hod mathematics"],
+            "responses":["head of mathematics department is Dr. Muhammad Sarmad Arshad find more on: https://lgu.edu.pk/hod-message-of-mathematics-department/"],
+            "tag":"hod-mathematics"},
+
+            {"context":"",
             "patterns":["where can i find chemistry department","chemistry","information chemistry"],
             "responses":["you can find info on chemistry department on : https://lgu.edu.pk/department-of-chemistry/"],
             "tag":"chemistry"},
+
+            {"context":"",
+            "patterns":["who is head of chemistry department","hod chemistry"],
+            "responses":["head of cehmistry department is : https://lgu.edu.pk/department-of-mathematics/"],
+            "tag":"hod-chemistry"},
 
             {"context":"",
             "patterns":["where can i find biology department","biology","information biology"],
@@ -180,9 +249,25 @@
             "tag":"biology"},
 
             {"context":"",
+            "patterns":["who is head of biology department","hod biology"],
+            "responses":["Dr. Aisha Waheed Qurashi is the head of biology department find more on  : https://lgu.edu.pk/biology-department-hods-message/"],
+            "tag":"hod-biology"},
+
+            {"context":"",
             "patterns":["where can i find physics department","physics","information physics"],
             "responses":["you can find info on physics department on : https://lgu.edu.pk/department-of-physics/"],
             "tag":"physics"},
+
+            {"context":"",
+            "patterns":["who is head of physics department","hod physics"],
+            "responses":["head of physics departement is Dr. Bushra Parveen find more on  : https://lgu.edu.pk/physics-hod-message/"],
+            "tag":"hod-physics"},
+
+            {"context":"",
+            "patterns":["what is the fee structure","fee structure","students fee"],
+            "responses":["you can find info on physics department on : https://lgu.edu.pk/fee-structure/"],
+            "tag":"fee"},
+        
 
 
             {"context":"",
