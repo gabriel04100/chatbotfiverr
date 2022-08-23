@@ -240,7 +240,7 @@
 
             {"context":"",
             "patterns":["who is head of chemistry department","hod chemistry"],
-            "responses":["head of cehmistry department is : https://lgu.edu.pk/department-of-mathematics/"],
+            "responses":["head of chemistry department is : https://lgu.edu.pk/department-of-mathematics/"],
             "tag":"hod-chemistry"},
 
             {"context":"",
@@ -264,8 +264,8 @@
             "tag":"hod-physics"},
 
             {"context":"",
-            "patterns":["what is the fee structure","fee structure","students fee"],
-            "responses":["you can find info on physics department on : https://lgu.edu.pk/fee-structure/"],
+            "patterns":["what is fee structure","what is the fee structure","fee structure","students fee"],
+            "responses":["you can find info on fee structure https://lgu.edu.pk/fee-structure/"],
             "tag":"fee"},
         
 

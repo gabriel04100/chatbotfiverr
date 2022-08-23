@@ -33,7 +33,7 @@ st.write('Official website: https://lgu.edu.pk/')
 
 
 #user input
-querry = st.text_input('How can I help you : ', 'My querry')
+querry = st.text_input('How can I help you : ', '')
 
 #robot image
 st.image('bot_img.png',width=100)
