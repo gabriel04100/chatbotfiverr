@@ -18,6 +18,76 @@
             "tag":"computer-science"},
 
             {"context":"",
+            "patterns":["where can i find the department of psychology ? "],
+            "responses":["Psychology as called the scientific study of mind and behavior is one of most exciting and rapidly advancing discipline serving humanity in almost all area of life. The Department of Psychology is dedicated to providing students with a high-quality and rigorous education in the classroom and beyond. More info on https://lgu.edu.pk/department-of-psychology-2/"],
+            "tag":"psychology"},
+
+            {"context":"",
+            "patterns":["where can i find the department of management ? "],
+            "responses":["The Department of Management Sciences was established in 2012, and since then, it has aimed to produce accomplished professionals who are best fit to meet the challenges of the public and corporate world. see more :https://lgu.edu.pk/department-of-management-sciences/"],
+            "tag":"manag-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of digital forensics ? "],
+            "responses":["Digital Forensics Research and Service Centre (DFRSC) was established in June 2016 as Centre of studies for Digital Forensic and Cyber Crime Investigations at Lahore Garrison University. LGU has made a remarkable impact on the canvas of Digital Forensics and related technologies in last six years. https://lgu.edu.pk/dfrsc-home/"],
+            "tag":"digital-forensics-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of islamic studies ? "],
+            "responses":["The Department of Islamic Studies is one of the esteemed departments of LGU. The Department aims at realizing the long-cherished dream of striking a balance between the pristine values of Islam as outlined in the Holy Qur’an and the Sunnah and the practical challenges of modern times. The highly qualified academicians have been engaged to focus on achieving excellence in education and research and contributing to the intellectual, cultural and social development of the institution. https://lgu.edu.pk/department-of-islamic-sciences/"],
+            "tag":"islamic-studies-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of mass communication ? "],
+            "responses":["The Department of Mass Communication has been striving for excellence in the realm of Communication Studies since 2005. The distinguishing kingpin of the department is its literal as well as figurative ‘instrumentality’ devised for practical learning in addition to the essential theoretical academic pursuits. https://lgu.edu.pk/department-of-mass-communication/"],
+            "tag":"mass-communication-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of INTERNATIONAL RELATIONS AND POLITICAL SCIENCE ? "],
+            "responses":["Department takes pride in its prestigious M. Phil International Relations Program, which was kicked off in the Fall of the year 2016. It is assiduously pursued in two years, comprising four semesters and weighted thirty credit hours. https://lgu.edu.pk/department-of-pol-sci-ir-pak-studies/"],
+            "tag":"political-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of computer SCIENCE ? "],
+            "responses":["The Department of Computer Science is the largest department at Lahore Garrison University in terms of faculty and student strength. The department aims to generate a continuous stream of new scientific and technical knowledge; and to transform the young talented students into leaders of technology organizations. In order to fulfill its mission, the department strives to create a culture that attracts, develops, and retains the best available scientific and technical minds. The Department of Computer Science encourages its faculty members and students to undertake research & development and engage in collaborative work with industry. https://lgu.edu.pk/department-of-computer-science-2/"],
+            "tag":"computer-sc-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of information technology ? "],
+            "responses":["Information technology at LGU, comprising more than one-fifth of the student population. Lahore Garrison University offers two exciting in demand degree programs BS IT (Hons) and MS IT, taught by our world-class faculty specializing in the domains of Advanced Information Technology, Databases, Software Development and Networks. The department is planning for strong growth in the coming years. The department has highly qualified faculty with academics as well as industry experience.  https://lgu.edu.pk/department-of-information-technology/"],
+            "tag":"information-tech-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of software engineering ? "],
+            "responses":["Software Engineering at LGU is the second-largest department of the university. It is the discipline of creating high-quality software systems in a systematic, controlled, and efficient manner. It involves the application of engineering concepts, techniques, and methods to the design, development, deployment, and maintenance of software systems. In our software engineering program, we groom professionals who have a mastery of principles, theory, practices, and processes necessary to produce quality software systems. The department has highly qualified faculty members with solid academic backgrounds and rich industry experience who are not only best in teaching but actively promote research culture among the youth of the country.   https://lgu.edu.pk/department-of-software-engineering/"],
+            "tag":"software-eng-dptmnt"},
+
+
+            {"context":"",
+            "patterns":["where can i find the department of english ?"],
+            "responses":["We, at the Department of English Language and Literature, strive to produce students who are critical thinkers and researchers. The Department aims at offering courses which would inculcate in the students a practical knowledge of the English language and its literature. Our focus here is not just limited to language learning, but we also tend to introduce contemporary literary trends to our students. https://lgu.edu.pk/department-of-english/"],
+            "tag":"english-dptmnt"},
+
+            {"context":"",
+            "patterns":["where can i find the department of urdu ?"],
+            "responses":["please head to : https://lgu.edu.pk/department-of-urdu/"],
+            "tag":"urdu-dptmnt"},
+
+                     
+            
+
+            {"context":"",
+            "patterns":["Who is the Vice-chancelor","whos is the dean ?","dean"],
+            "responses":["The vice chancelor is Major General Shahzad Sikander"],
+            "tag":"dean"},
+
+            {"context":"",
+            "patterns":["Where can I find about academics ?"],
+            "responses":["You can find informations about academics on the main page : https://lgu.edu.pk/about-us/"],
+            "tag":"nav"},
+
+
+            {"context":"",
             "patterns":[" information about all department"," How many department"],
             "responses":["15 department are shared between multiple faculties :Social sciences, Computer Sciences, Languages, Basic Sciences you can check them on https://lgu.edu.pk/"],
             "tag":"dptmnt"},
