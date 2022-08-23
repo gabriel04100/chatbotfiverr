@@ -1,7 +1,5 @@
 requests
 streamlit
 numpy
-tensorflow
-keras
 sklearn
 nltk
