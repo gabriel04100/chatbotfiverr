@@ -1,17 +1,12 @@
-from importlib.resources import path
-import streamlit as st
 import json
 import random
 import pandas as pd
-import numpy as np
 import nltk
 nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score
 from sklearn.pipeline import make_pipeline
-from sklearn.pipeline import Pipeline
 from sklearn import preprocessing
 from sklearn.neural_network import MLPClassifier
 from joblib import dump, load

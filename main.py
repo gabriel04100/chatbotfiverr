@@ -5,18 +5,6 @@
 from model import Model
 import streamlit as st
 
-import json
-import random
-import pandas as pd
-import numpy as np
-from nltk.tokenize import word_tokenize
-from nltk.stem.porter import PorterStemmer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score
-from sklearn.pipeline import make_pipeline
-from sklearn.pipeline import Pipeline
-from sklearn import preprocessing
-from sklearn.neural_network import MLPClassifier
 
 
 
