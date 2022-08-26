@@ -38,6 +38,7 @@ if st.button('send'):
     if querry !="" and querry !=" " and querry !="My querry":
         st.write(model.predict(querry))
 
+
 #robot image
 st.image('bot_img.png',width=100)
 
